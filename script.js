@@ -25,7 +25,7 @@ function formatDueDate(dateString) {
 }
 
 // --- Gemini API Integration ---
-const GEMINI_API_KEY = 'AIzaSyAUQmgz1VEAisRCn40qbVvtLevJlDTyDBg'; // Replace with your actual API key
+const GEMINI_API_KEY = 'xxxxxxxxxx'; // Replace with your actual API key
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
 
 async function callGeminiAPI(prompt) {
